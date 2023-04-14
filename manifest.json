@@ -5,6 +5,7 @@
     "manifest_version": 3,
     "browser_specific_settings": {
         "gecko": {
+            "id": "dlongo97dev@gmail.com",
             "strict_min_version": "109.0"
         }
     },
@@ -32,7 +33,6 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*/*",
                 "*://*/*"
             ],
             "js": [
@@ -50,9 +50,6 @@
         "management"
     ],
     "host_permissions": [
-        "*://*/*"
-    ],
-    "optional_permissions": [
         "*://*/*"
     ],
     "web_accessible_resources": [

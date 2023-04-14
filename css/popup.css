@@ -3,10 +3,14 @@ body {
     height: 100px;
 }
 
-#main-div {
+.div-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.off {
+    display: none;
 }
 
 .toggle {
